@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+    background-image: url(images/bg_image.jpg);
+    
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    border: 1px solid black;
+    margin: 180px 420px;
+    background-color: aqua;
+    border-radius: 12px;
+    filter: opacity(60%);
+
+}
+
+.head{
+    font-weight: bolder;
+
+}
+
+.btn{
+    padding: 12px;
+    border: 3px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.fill{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.type{
+    padding: 8px;
+    width: 300px;
+}
